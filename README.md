@@ -52,3 +52,9 @@ TopDensGrad2.py
 atom-atom-sep.py
 >Calculate the distribution of atom-atom separations relative to defined diameter
 >meant for zero temperature films
+
+intermedscatt-anneal-xy_long.py
+>Calculate self-intermediate scattering function (taking account only of x,y motion)
+>using atom dumps from LAMMPS program in.heatxsspoly that very rapidly heats film from
+>initial to anneal temperature and holds there - dumping atom positions at ~15%
+>intervals for 74 intervals. 
